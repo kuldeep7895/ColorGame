@@ -75,12 +75,7 @@
       }
 
       function reset(){
-        t1.style.background = getRandomColor();
-        t2.style.background = getRandomColor();
-        t3.style.background = getRandomColor();
-        t4.style.background = getRandomColor();
-        t5.style.background = getRandomColor();
-        t6.style.background = getRandomColor();
+        newGame();
         numTries = 0;
         document.getElementById("counter").innerHTML = "Tries: "+numTries;
         document.getElementById("header").style.background = "#ffb6c1";
